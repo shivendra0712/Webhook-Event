@@ -16,6 +16,8 @@ router.get('/stats/summary', async (req, res, next) => {
     }
 });
 
+
+
 // Get all deliveries with filters
 router.get('/', async (req, res, next) => {
     try {
