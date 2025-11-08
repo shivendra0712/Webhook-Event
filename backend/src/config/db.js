@@ -6,6 +6,8 @@ import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
+
+
 // Use SQLite for development (no PostgreSQL needed)
 const sequelize = new Sequelize({
     dialect: 'sqlite',
